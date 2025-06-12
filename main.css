@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+.header{
+    display: flex;
+    height: 70px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.left-section {
+    background-color: lightblue;
+    width:150px;
+    margin-left: 125px;
+    display: flex;
+    vertical-align: middle;
+}
+.left-section img {
+    width: 60px;
+    height: 60px;
+}    
+.left-section p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+    
+.middle-section {
+    background-color: lightpink;
+    flex:1;
+    margin-left: 40px;
+    margin-right: 70px;
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    font-family: ;
+    color: black;
+    text-decoration: none;
+}
+.right-section {
+    background-color: lightblue;
+    width: 150px;
+    
+}
+.book-btn {
+    padding: 10px 25px 10px 25px;
+    color: white;
+    background-color: black;
+    border-radius: 0;
+}
+
+.hero-section {
+    background-image:url('assets/beautiful-laughing-brunette-model-girl-600nw-2043707105.webp') ;
+    height: 900px;
+    background-size: cover;
+    background-attachment: scroll;
+    
+}
+
+.hero-content, .hero-buttons {
+    position: relative;
+    top: 260px;
+    margin-left: 120px;
+}
+
+.hero-content h1 {
+    font-size: 52px;
+    color: #2c2c2c;
+    font-family: 'playfair display', serif;
+    max-width: 450px;
+    line-height: 120%;
+    margin-bottom: 10px;
+
+}
+
+.hero-content p {
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    width: 375px;
+}
+
+.hero-buttons {
+    padding: 30px;
+    gap: 15px;
+
+}
+
+.hero-btn {
+    padding:25px;
+
+
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    background-color: #EFEDEB;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 240px;
+    justify-content: center;
+    position: relative;
+    top: -120px;
+    
+    
+}
+
+.location, .time, .phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+
+
+}
+.icon {
+    width: 80px;
+    height: 80px;
+    
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.salon-img {
+    width: 620px;
+    height: 403px;
+
+}
