@@ -716,7 +716,7 @@ button{
 
 
 /*For Java script*/
-/* === THEME TOGGLE === */
+
 .theme-toggle-btn {
     padding: 10px 20px;
     margin-left: 30px;
@@ -727,7 +727,7 @@ button{
     cursor: pointer;
 }
 
-/* Dark mode styles */
+/* Dark mode */
 .dark-theme {
     background-color: #1e1e1e;
     color: white;
@@ -735,11 +735,21 @@ button{
 .dark-theme .product1,
 .dark-theme .product2,
 .dark-theme .product3 {
-    background-color: #333;
+    background-color:white;
+    color:  #333;
+}
+.dark-theme .welcome-section p,
+.dark-theme .about-section p,
+.dark-theme .title,
+.dark-theme, .products-txt {
     color: white;
 }
-
-/* === PRODUCT COUNTER === */
+.dark-theme .left-section p, 
+.dark-theme .testimonial1, 
+.dark-theme .testimonial2 {
+    color: black;
+}
+/* product counter */
 .counter {
     display: flex;
     justify-content: center;
