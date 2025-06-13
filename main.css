@@ -176,7 +176,7 @@ button{
     gap: 20px;
 }
 
-.salon-img {
+.hairsalon-img {
     width: 620px;
     height: 403px;
 }
@@ -708,40 +708,48 @@ button{
 }
 
 
-
-/*.footer{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    margin-top: 50px;
+/*For Java script*/
+/* === THEME TOGGLE === */
+.theme-toggle-btn {
+    padding: 10px 20px;
+    margin-left: 30px;
+    font-size: 14px;
+    border: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
 }
-.footer-logo{
+
+/* Dark mode styles */
+.dark-theme {
+    background-color: #1e1e1e;
+    color: white;
+}
+.dark-theme .product1,
+.dark-theme .product2,
+.dark-theme .product3 {
+    background-color: #333;
+    color: white;
+}
+
+/* === PRODUCT COUNTER === */
+.counter {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
 }
-.footer-logo img{
-    width: 60px;
-    height: 60px;
+.counter button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
 }
-
-.footer-logo p {
-    font-family: "Aguafina Script", cursive;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 24px;
-    width: 80px;
-    line-height: 120%;
+.counter span {
+    font-size: 16px;
+    min-width: 20px;
+    text-align: center;
 }
-
-.footer-up{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-}
-.footer-bottom {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-}
-.social-icons img {
-    width: 25px;
-    height: 25px;
-}*/
