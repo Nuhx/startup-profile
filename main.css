@@ -517,70 +517,77 @@ button{
 
 }
 
+
 .ai-chatbot {
-    margin-right: 100px;
-}
-.question p{
-    width: 550px;
-}
-
-.chatbot-nav{
-    display: flex;
-    background-color: #D5C5B1;
-    border-radius: 38px 38px 0 0;
-    height: 50px;
-}
-.chatbot-icon{
-    width: 30px;
-    height: 30px; 
-    position: relative;
-    top: 8px;
-    left: 20px;
-}
-.chatbot-main {
-    display: grid;
-    grid-template-rows: 60px 50px 50px;
-    background-color:#EFEDEB;
-    border-radius:0 0 20px 20px;
-
-}
-.message{
-    display: flex;
-    gap: 30px;
-    
+  background-color: #EFEDEB;
+  padding: 20px;
+  border-radius: 12px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.message p{
-   position: relative;
-   top: 20px;
+.chat-instructions {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 500;
 }
 
-.chatbot-input{
-    display: flex;
-    margin-left: 20px;
-    gap:15px;
+.chatbot-window {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
 }
 
-.chatbot-input input{
-    width: 280px;
-    border-radius: 40px;
-    padding-left: 20px;
-}
-.chatbot-input img{
-    position: relative;
-    top: 12px;
+#chat-input {
+  width: 70%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #bbb;
 }
 
-.send-btn, .link-btn, .mail-btn, .pro-btn{
-    width: 25px;
-    height: 25px; 
+#send-btn {
+  padding: 10px 20px;
+  background-color: #BFAE9B;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
 }
-.chatbot-choices {
-    display: flex;
-    gap: 25px;
-    margin-top: 10px;
-    margin-left: 30px;
+
+.sample-questions {
+  margin-top: 20px;
 }
+
+.sample-btn {
+  background-color: #D5C5B1;
+  border: none;
+  padding: 8px 12px;
+  margin: 5px 5px 0 0;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.bot-msg {
+  background-color: #f3f3f3;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 8px;
+  color: #444;
+}
+
+.user-msg {
+  background-color: #BFAE9B;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 8px;
+  text-align: right;
+  color: black;
+}
+
 
 /*----sec9---*/
 .section9{

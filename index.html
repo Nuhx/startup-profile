@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
 
     </head>
     <body>
@@ -248,32 +249,23 @@
                 to help you every step of the way.</p>
             </div>
             <div class="ai-chatbot">
-                <div class="chatbot-nav">
-                    <div class="chatbot-profile"><img src="assets/robot-assistant.png" alt="Chatbot Icon" class="chatbot-icon"></div>
-                    <div class="exit-icons">
-                        <img>
-                        <img>
-                    </div>
+                <p class="chat-instructions">Ask me anything about our hair services, team, or products!</p>
+                <div class="chatbot-window">
+                    <div id="chat-messages" class="chat-messages"></div>
+                    <input type="text" id="chat-input" placeholder="Type your message...">
+                    <button id="send-btn">Send</button>
                 </div>
-                <div class="chatbot-main">
-                    <div class="chatbot-messages">
-                        <div class="message">
-                            <img src="assets/robot-assistant.png" alt="Chatbot Icon" class="chatbot-icon">
-                            <p>Hi there! How can I assist you today?</p>
-                        </div>
-                    </div>
-                    <div class="chatbot-input">
-                        <input type="text" placeholder="Type your message here...">
-                        <img src="assets/send.png" alt="send"class="send-btn">
-                    </div>
-                    <div class="chatbot-choices">
-                        <img src="assets/link.png" alt="send" class="link-btn">
-                        <img src="assets/email.png" alt="main" class="mail-btn">
-                        <img src="assets/user (1).png" alt="pro" class="pro-btn">
-                    </div>
-            
+                
+                <div class="sample-questions">
+                    <p>Try asking:</p>
+                    <button class="sample-btn">What services do you offer?</button>
+                    <button class="sample-btn">Who is your founder?</button>
+                    <button class="sample-btn">Where is Utopia Hair Lab located?</button>
+                    <button class="sample-btn">Do you sell hair care products?</button>
+                    <button class="sample-btn">How do I book an appointment?</button>
                 </div>
             </div>
+            
         </div>
 
         <div class="section9">
@@ -331,6 +323,10 @@
         
 
         <script src="script.js"></script>
+        <script src="https://js.puter.com/v2/"></script>
+        <script>
+            puter.ai.chat(`Why did the chicken cross the road?`).then(puter.print);
+        </script>
             
        
     </body>
