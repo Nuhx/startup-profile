@@ -132,11 +132,161 @@
 .section2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 120px;
+    margin-left: 150px;
     margin-right: 120px;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+.welcome-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.title{
+  font-family: 'lora', serif; 
+  font-size: 40px;
+  color: #3c3c3c;
+  font-weight: 550;
+  line-height: 150%;
+  display: block; 
 }
 .salon-img {
     width: 620px;
     height: 403px;
+}
 
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+    margin-top: 200px;
+    max-width: 500px
+
+}
+
+.about-section p {
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.read-more-btn {
+    padding: 10px 25px;
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section3 {
+    display: grid;
+    grid-template-rows: 100px 900px 100px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.services-title {
+    margin-left: 100px;
+    background-color: lightpink;
+    width: 500px;
+    text-align: center;
+}
+
+.services {               
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    justify-content: center;
+    gap: 90px;
+    height: 900px;
+    align-items: center;
+    background-image:url('assets/bg3.png');
+    background-size: cover;
+}
+
+.service1, .service2, .service3, .service4 {
+    height: 360px;
+    
+    
+}
+
+.service1 img, .service2 img, .service3 img, .service4 img {
+    width: 240px;
+    height: 360px;
+    border-radius: 200px 200px 31px 31px;
+}
+
+.service1 p, .service2 p, .service3 p, .service4 p {
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 550;
+    line-height: 120%;
+    text-align: center;
+    position: relative;
+    top: -180px;
+}
+
+.service-btn {
+    position: relative;
+    left: 900px;
+    background-color: lightpink;
+    width: 400px;
+    text-align: center;
+}
+
+.learn-more-btn {
+    padding: 10px 25px;
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    top: -180px;
+}
+    
+
+.book-now-btn {
+    padding: 20px 40px;
+    color: black;
+    background-color: #d9d9d9;
+    border-radius: 0;
+    border-width: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.section4 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    margin: 120px 0 120px 100px;
+    gap: 30px;
+}
+
+.product-description {
+}
+
+.product1, .product2 {
+    background-color: lightgrey;
+}
+.shopping-icon{
+    width:20px;
+    height: 20px;
+}
+
+.product-img {
+    width: 200px;
+    height: 200px;
 }
